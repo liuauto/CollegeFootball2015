@@ -3,7 +3,7 @@ import numpy as np
 from scipy.sparse import csc_matrix 
 from numpy.linalg import linalg
 
-path = 'scores.csv'
+path = 'data/scores.csv'
 dict_list = ext.getWinDict(path)
 H = ext.getH(dict_list)
 N = len(dict_list[0])
